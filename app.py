@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 from google import genai
 from dotenv import load_dotenv
-
+export GEMINI_API_KEY=""AIzaSyB02FSyR3uf9zipoVHdgz6v0Rjetb9Bhmk"
 # Load variables from .env
 load_dotenv()
 
