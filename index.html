@@ -1404,9 +1404,54 @@
                 display: none
             }
 
+            .eyebrow {
+                font-size: 0.65rem;
+                letter-spacing: 0.15em;
+            }
+
+            .eyebrow .line {
+                width: 15px;
+            }
+
+            .name-first, .name-last {
+                font-size: clamp(3.2rem, 16vw, 4.2rem);
+            }
+
             .hero-content {
-                max-width: 95%;
-                padding: 0 1.5rem
+                max-width: 100%;
+                padding: 0 1.5rem;
+                margin-top: -3vh;
+                z-index: 5;
+            }
+
+            .hero-photo {
+                opacity: 0.55;
+                background-position: calc(100% + 40px) calc(100% + 20px);
+                background-size: 140%;
+            }
+
+            .hero-actions {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .btn-secondary {
+                background: rgba(3, 2, 4, 0.85);
+            }
+
+            .hero-socials {
+                gap: 1.2rem;
+            }
+
+            .hero-socials .social-link {
+                width: 45px;
+                height: 45px;
+            }
+
+            .hero-socials .social-link svg {
+                width: 1.2rem;
+                height: 1.2rem;
             }
 
             .hero-stats {
